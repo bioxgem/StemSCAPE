@@ -1,5 +1,5 @@
 # StemSCAPE
-Visible Machine Learning Maps Cancer Stemness Landscape
+We developed StemSCAPE, a visible machine learning framework that integrates transcriptomic and CRISPR datasets to map stemness–associated genes, pathways, and samples with mechanistic interpretability. StemSCAPE delineates conserved and context-specific stemness programs across malignancies, resolves gene–pathway–sample relationships, and links stemness activity to immune and metabolic axes associated with patient outcomes. This landscape reveals core regulatory modules shared across cancers and subtype-specific vulnerabilities.
 
 ![](Figure1.png)
 **Development and validation of StemSCAPE framework.**
@@ -13,6 +13,20 @@ This repository hosts the source code used for the data processing within our st
 ## Description
 ![](StemSCAPE.png)
 **Overview of StemSCAPE framework.**
+
+To characterize pan-cancer stemness, we developed the **StemSCAPE** model. This white-box machine learning framework is designed to **identify stemness-associated samples** and **map their underlying genes and pathways**.
+
+The model comprises two major, distinct steps:
+
+### Step 1: StemSCAPE-Gene Index (GI) Calculation by Anchor Gene Community-Regulated Stemness-Related Pathways (AnGReP)
+
+* **Process:** We analyzed the transcriptomic data of 8,215 tumor and 726 normal samples across 24 cancer types from The Cancer Genome Atlas Program (TCGA) to calculate the AnGReP. Subsequently, we computed a **StemSCAPE-GI** for each gene.
+* **Resources:** The **AnGReP score** (mapping genes to each pathway), the final **StemSCAPE-GI**, and the **stemness-related gene labels** are provided within the `StemSCAPE-GI` folder.
+
+### Step 2: StemSCAPE-Sample Index (SI) Calculation
+
+* **Process:** A refined set of 1,463 stemness-related genes (selected based on high StemSCAPE-GI values) was used to calculate the **StemSCAPE-SI** for each individual sample.
+* **Resources:** This step includes the **`StemSCAPE-SI.py` Python program**, required **input files**, and the corresponding **output files**, all located in the `StemSCAPE-SI` folder.
 
 ## Data sources
 
