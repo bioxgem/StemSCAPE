@@ -30,12 +30,12 @@ The model comprises two major, distinct steps:
 
 ## Data sources
 
-The cancer stemness-associated genes ([n=87 literature-reported]) were curated from the following four references:
+The cancer stemness-associated genes ([n=87 literature-reported](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/87_literature-reported_CSC_genes.txt)) were curated from the following four references:
 
-- [30 cancer-stemness genes] were downloaded from [Yang et al., _Signal Transduct Tar_, 2020](https://doi.org/10.1038/s41392-020-0110-5)
-- [42 cancer-stemness genes] were downloaded from [Walcher et al., _Front Immunol_, 2020](https://doi.org/10.3389/fimmu.2020.01280)
-- [43 cancer-stemness genes] were downloaded from [Nagle et al., _Radiation Oncology_, 2019](https://doi.org/10.1007/978-3-319-52619-5_104-1)
-- [42 cancer-stemness genes] were downloaded from [Zhao et al, _Cancer Transl Med_, 2017](https://doi.org/10.4103/ctm.ctm_69_16)
+- [30 cancer-stemness genes](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/30_CSC_genes_from_2020_Signal_Transduct_Tar.txt) were downloaded from [Yang et al., _Signal Transduct Tar_, 2020](https://doi.org/10.1038/s41392-020-0110-5)
+- [42 cancer-stemness genes](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/42_CSC_genes_from_2020_Front_Immunol.txt) were downloaded from [Walcher et al., _Front Immunol_, 2020](https://doi.org/10.3389/fimmu.2020.01280)
+- [43 cancer-stemness genes](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/43_CSC_genes_from_2019_Radiation_Oncology.txt) were downloaded from [Nagle et al., _Radiation Oncology_, 2019](https://doi.org/10.1007/978-3-319-52619-5_104-1)
+- [42 cancer-stemness genes](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/42_CSC_genes_from_2017_Cancer_Transl_Med.txt) were downloaded from [Zhao et al, _Cancer Transl Med_, 2017](https://doi.org/10.4103/ctm.ctm_69_16)
 
 The testing datasets were curated from the following two references:
 
@@ -45,7 +45,7 @@ The testing datasets were curated from the following two references:
 
 The external evaluation sets were compiled from publicly available resources, specifically providing the following components:
 
-* [26 stemness gene sets]
+* [26 stemness gene sets](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/26_stemness_gene_sets.txt)
 * [10 cancer hallmark gene sets](https://figshare.com/ndownloader/files/7881838)
 
 ## Installation and setup
