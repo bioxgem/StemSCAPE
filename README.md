@@ -30,18 +30,23 @@ The model comprises two major, distinct steps:
 
 ## Data sources
 
-The cancer stemness-associated genes (n=87 literature-reported) were curated from the following four references:
+The cancer stemness-associated genes ([n=87 literature-reported]) were curated from the following four references:
 
-- 30 cancer-stemness genes were downloaded from [Yang et al., _Signal Transduct Tar_, 2020](https://doi.org/10.1038/s41392-020-0110-5)
-- 43 cancer-stemness genes were downloaded from [Walcher et al., _Front Immunol_, 2020](https://doi.org/10.3389/fimmu.2020.01280)
-- 43 cancer-stemness genes were downloaded from [Nagle et al., _Radiation Oncology_, 2019](https://doi.org/10.1007/978-3-319-52619-5_104-1)
-- 42 cancer-stemness genes were downloaded from [Zhao et al, _Cancer Transl Med_, 2017](https://doi.org/10.4103/ctm.ctm_69_16)
+- [30 cancer-stemness genes] were downloaded from [Yang et al., _Signal Transduct Tar_, 2020](https://doi.org/10.1038/s41392-020-0110-5)
+- [42 cancer-stemness genes] were downloaded from [Walcher et al., _Front Immunol_, 2020](https://doi.org/10.3389/fimmu.2020.01280)
+- [43 cancer-stemness genes] were downloaded from [Nagle et al., _Radiation Oncology_, 2019](https://doi.org/10.1007/978-3-319-52619-5_104-1)
+- [42 cancer-stemness genes] were downloaded from [Zhao et al, _Cancer Transl Med_, 2017](https://doi.org/10.4103/ctm.ctm_69_16)
 
-The testing datasets were curated from the following three references:
+The testing datasets were curated from the following two references:
 
-- [100 cancer-stemness genes](http://www.bio-bigdata.center/CellMarkerSearch.jsp?quickSearchInfo=stem%20cell&index_key=2#framekuang) were downloaded from CellMarker 2.0 by [Hu et al., _Nucleic Acids Res_, 2023](https://doi.org/10.1093/nar/gkac947)
-- [131 normal-stemness genes](http://www.bio-bigdata.center/CellMarkerSearch.jsp?quickSearchInfo=stem%20cell&index_key=2#framekuang) were downloaded from CellMarker 2.0 by [Hu et al., _Nucleic Acids Res_, 2023](https://doi.org/10.1093/nar/gkac947)
-- [69 high confidience cancer-stemness genes](https://bicresources.jcbose.ac.in/ssaha4/bcscdb/download.php) were downloaded from BCSCdb by [Firdous et al., _Database-Oxford_, 2022](https://doi.org/10.1093/database/baac082)
+- [100 cancer-stemness genes and 131 normal-stemness genes](http://www.bio-bigdata.center/CellMarkerSearch.jsp?quickSearchInfo=stem%20cell&index_key=2#framekuang) were downloaded from CellMarker 2.0 by [Hu et al., _Nucleic Acids Res_, 2023](https://doi.org/10.1093/nar/gkac947)
+- [69 high confidience cancer-stemness genes (confidience score > 0.5)](https://bicresources.jcbose.ac.in/ssaha4/bcscdb/downloads/CSC_Biomarker_2022_All.csv) were downloaded from BCSCdb by [Firdous et al., _Database-Oxford_, 2022](https://doi.org/10.1093/database/baac082)
+
+
+The external evaluation sets were compiled from publicly available resources, specifically providing the following components:
+
+* [26 stemness gene sets]
+* [10 cancer hallmark gene sets](https://figshare.com/ndownloader/files/7881838)
 
 ## Installation and setup
 ### Project dependencies
