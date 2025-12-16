@@ -1,0 +1,29 @@
+Supplementary Table 1. Prerank GSEA analysis for 26 published stemness-associated gene sets.
+
+Term	No. of genes	NES	FDR q-value	Tag %
+Yan, underexpressed in CD133+ GBM cells5	125	2.583	0	76/116
+Kim, core human6	75	2.1563	0	30/73
+Bhattacharya, hESC7	88	2.1081	0	60/87
+Wong, core ESC-like module8	335	2.1033	0	182/315
+Benporath, ES17	379	2.0494	0	171/352
+Wong, human ESC-like module8	1192	2.0275	0	559/1110
+Benporath, Nanog7	360	1.969	0	140/351
+Palmer, Stem cell gene set9	189	1.9622	0	72/176
+Shats, consensus7	80	1.9609	0	47/80
+Shats, iPSC7	86	1.955	7.92E-05	47/71
+Kim, PrC_Human6	451	1.9484	7.39E-05	168/434
+Kim, Myc7	325	1.9291	6.93E-05	126/325
+Benporath, Sox27	360	1.8909	6.52E-05	146/353
+Zhang, Stem.sig10	454	1.8874	6.16E-05	134/390
+Kim, Myc Human6	355	1.8549	5.84E-05	128/337
+Kim, core factors11	8	1.828	1.66E-04	5/8
+Benporath, proliferative genes7	1035	1.7447	6.86E-04	278/849
+Sato, HESC and MESC overlap genes12 	20	1.7382	7.06E-04	6/9
+Smith, human epithelial ASC7	49	1.6495	3.13E-03	15/47
+Yuan, CancerSEA13	62	1.6173	4.57E-03	21/55
+Miranda, Curated withouth immune and proliferative genes7	109	1.6135	4.52E-03	46/103
+Kim, Myc-related factors11	11	1.5951	5.50E-03	7/11
+Benporath, ES27	40	1.4576	2.29E-02	11/37
+Yan, overexpressed in CD133+ GBM cells5	89	1.3691	4.63E-02	28/87
+Kim, polycomb related factors11	7	1.2885	8.41E-02	4/7
+Sato, HESC-related genes12	16	1.2306	1.23E-01	6/9
