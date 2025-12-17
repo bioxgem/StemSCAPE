@@ -45,7 +45,7 @@ The testing datasets were curated from the following two references:
 
 The external evaluation sets were compiled from publicly available resources, specifically providing the following components:
 
-* [26 stemness gene sets](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/26_stemness_gene_sets.txt) (see [Supplementary Table 1](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/Supplementary_Table_1.txt))
+* [26 stemness gene sets](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/26_stemness_gene_sets.txt) (see [Supplementary Table 1](https://github.com/bioxgem/StemSCAPE/blob/main/StemSCAPE-GI/Supplementary_Table_1.pdf))
 * [10 cancer hallmark gene sets](https://figshare.com/ndownloader/files/7881838)
 
 ## Installation and setup
